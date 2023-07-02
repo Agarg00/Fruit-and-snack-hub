@@ -45,4 +45,9 @@
 .slick-initialized .slick-slide {
   margin-left: 12px;
   margin-right: 12px;
+  margin-top: 10px;
+}
+
+.slick-list {
+  height: 250px;
 }

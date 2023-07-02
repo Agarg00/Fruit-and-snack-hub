@@ -1,11 +1,11 @@
 import React from "react";
-import "../qssets/CSS/FeatureFooter.css";
-import icon1 from "../icon/icon-1.svg";
-import icon2 from "../icon/icon-2.svg";
-import icon3 from "../icon/icon-3.svg";
-import icon4 from "../icon/icon-4.svg";
-import icon5 from "../icon/icon-5.svg";
-import icon6 from "../icon/icon-6.svg";
+import "../assets/CSS/FeatureFooter.css";
+import icon1 from "../assets/img/icons/icon-1.svg";
+import icon2 from "../assets/img/icons/icon-2.svg";
+import icon3 from "../assets/img/icons/icon-3.svg";
+import icon4 from "../assets/img/icons/icon-4.svg";
+import icon5 from "../assets/img/icons/icon-5.svg";
+// import icon6 from "../assets/img/icons/icon-5.svg";
 const FeatureFooter = () => {
   return (
     <>
@@ -96,7 +96,7 @@ const FeatureFooter = () => {
               >
                 <div class="banner-icon">
                   {" "}
-                  <img src={icon6} alt="" />
+                  <img  src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-6.svg" alt="" />
                 </div>
                 <div class="banner-text">
                   <h3 class="icon-box-title">Safe delivery</h3>
