@@ -1,9 +1,65 @@
 import React from "react";
 import "../assets/CSS/item.css";
+import { smallRight } from "./images";
 
 const Items = () => {
   return (
-    <div>
+    <>
+      <section className="banners mb-25">
+        <div className="banner-container">
+          <div class="card text-bg-dark custom-banners">
+            <img
+              src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-1.png"
+              class="card-img"
+              alt="banner-1"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-black">
+                Everyday Fresh & Clean with Our Products
+              </h4>
+              <p class="card-text">
+                <a href="shop-grid-right.html" class="btn btn-xs">
+                  Shop Now -{'>'}
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="card text-bg-dark custom-banners">
+            <img
+              src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-2.png"
+              class="card-img"
+              alt="banner-2"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-black">
+                Make your Breakfast Healthy and Easy
+              </h4>
+              <p class="card-text">
+                <a href="shop-grid-right.html" class="btn btn-xs">
+                  Shop Now -{'>'}
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="card text-bg-dark custom-banners">
+            <img
+              src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-3.png"
+              class="card-img"
+              alt="banner-3"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-black">
+                The best Organic Products Online
+              </h4>
+              <p class="card-text">
+                <a href="shop-grid-right.html" class="btn btn-xs">
+                  Shop Now -{'>'}
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <div
         class="section-title style-2 wow animate__ animate__fadeIn animated d-flex justify-content-between"
         style={{ visibility: "visible", animationName: "fadeIn" }}
@@ -266,7 +322,7 @@ const Items = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

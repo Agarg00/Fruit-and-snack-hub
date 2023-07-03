@@ -59,10 +59,10 @@ const Navbar = () => {
         </ul>
         <div className="nav align-item-center col-xl-5 col-lg-4">
           <li className="nav-item" id="banner">
-          <marquee direction="up" height="50%">
-            <a className="nav-link" href="/">
-              Banner
-            </a>
+            <marquee direction="up" height="50%">
+              <a className="nav-link" href="/">
+                Banner
+              </a>
             </marquee>
           </li>
         </div>
@@ -138,7 +138,7 @@ const Navbar = () => {
         </ul>
       </div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary sub-header">
-        <div className="container-fluid" style={{background: "#fff"}}>
+        <div className="container-fluid" style={{ background: "#fff" }}>
           <a className="navbar-brand logo" href="/">
             <img src={logo} alt="logo" width={"180px"} />
           </a>
@@ -233,37 +233,37 @@ const Navbar = () => {
                   <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="/">
-                      <img src={user} alt="user"/>
+                        <img src={user} alt="user" />
                         <p>My Account</p>
                       </a>
                     </li>
                     <li>
                       <a className="dropdown-item" href="/">
-                      <img src={location} alt="location-alt"/>
+                        <img src={location} alt="location-alt" />
                         <p>Order Tracking</p>
                       </a>
                     </li>
                     <li>
                       <a className="dropdown-item" href="/">
-                      <img src={tag} alt="label"/>
-                      <p>My Voucher</p>
+                        <img src={tag} alt="label" />
+                        <p>My Voucher</p>
                       </a>
                     </li>
                     <li>
                       <a className="dropdown-item" href="/">
-                      <img src={heart} alt="heart"/>
-                      <p>My Wishlist</p>
+                        <img src={heart} alt="heart" />
+                        <p>My Wishlist</p>
                       </a>
                     </li>
                     <li>
                       <a className="dropdown-item" href="/">
-                      <img src={options} alt="settings"/>
-                      <p>Setting</p>
+                        <img src={options} alt="settings" />
+                        <p>Setting</p>
                       </a>
                     </li>
                     <li>
                       <a className="dropdown-item" href="/">
-                      <img src={logOut} alt="sign-out"/>
+                        <img src={logOut} alt="sign-out" />
                         <p>Sign out</p>
                       </a>
                     </li>
@@ -425,9 +425,15 @@ const Navbar = () => {
               </li>
             </ul>
             <div class="hotline d-none d-lg-flex">
-                        <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-headphone.svg" alt="hotline" />
-                        <p>1900 - 888<span>24/7 Support Center</span></p>
-                    </div>
+              <img
+                src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-headphone.svg"
+                alt="hotline"
+              />
+              <div className="custom-support">
+                <h2>1900 - 888</h2>
+                <p>24/7 Support Center</p>
+              </div>
+            </div>
           </div>
         </div>
       </nav>

@@ -264,6 +264,35 @@ option:hover {
   max-width: 30px!important;
 }
 
+.hotline h2 {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+  display: block;
+  line-height: 1;
+  color: #3bb77e;
+}
+
+.hotline img {
+  margin-right: 10px;
+}
+
+.hotline p{
+  font-weight: 500;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  color: #7E7E7E;
+  display: block;
+  letter-spacing: 0.9px;
+  margin-top: -10px;
+}
+
+.custom-support {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+}
+
 
 ::-webkit-scrollbar {
   width: 1px;
