@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/CSS/Navbar.css";
+import "../../assets/CSS/Navbar.css";
 import {
   plus,
   btnImg,
@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="row align-item-center top-header">
-        <ul className="nav nav-pills col-xl-4 col-lg-4">
+        <ul className="nav nav-pills w-auto">
           <li className="nav-item">
             <a className="nav-link" href="/">
               About Us
@@ -57,18 +57,18 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <div className="nav align-item-center col-xl-5 col-lg-4">
+        <div className="nav align-item-center w-auto">
           <li className="nav-item" id="banner">
-            <marquee direction="up" height="50%">
+            <marquee direction="up" height="50%" scrolldelay='300'>
               <a className="nav-link" href="/">
-                Banner
+                Supper Value Deals - Save more with coupons
               </a>
             </marquee>
           </li>
         </div>
-        <ul className="nav nav-pills col-xl-3 col-lg-4">
+        <ul className="nav nav-pills w-auto">
           <li className="nav-item">
-            <a className="nav-link d-flex" href="/">
+            <a className="nav-link d-flex" href="/" style={{marginTop: '16px'}}>
               {" "}
               Need help? Call Us:<p> + 1800 900</p>
             </a>
@@ -424,7 +424,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <div class="hotline d-none d-lg-flex">
+            <div className="hotline d-none d-lg-flex">
               <img
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-headphone.svg"
                 alt="hotline"

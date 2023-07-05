@@ -1,7 +1,8 @@
 import React from "react";
-import slider1 from "../assets/img/slider-1.png";
-import slider2 from "../assets/img/slider-2.png";
-import './Crousel.css'
+import slider1 from "../../assets/img/slider-1.png";
+import slider2 from "../../assets/img/slider-2.png";
+import '../../assets/CSS/Crousel.css'
+
 
 const Crousel = () => {
   return (
@@ -41,7 +42,7 @@ const Crousel = () => {
                   id=".."
                 />
                 <button className="btn btn-success rounded-end-pill border-0" type="submit">
-                  Subscribe
+                  <strong>Subscribe</strong>
                 </button>
               </form>
             </div>
