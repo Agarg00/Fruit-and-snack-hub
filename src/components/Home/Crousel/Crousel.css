@@ -1,0 +1,298 @@
+.carousel{
+  border-radius: 20px !important;
+}
+
+
+.carousel-inner .carousel-item .newsletter .carousel-img-1 {
+  background: url(../../../assets/img/slider-1.png) no-repeat center;
+}
+.carousel-inner .carousel-item .newsletter .carousel-img-2 {
+  background: url(../../../assets/img/slider-2.png) no-repeat center;
+}
+.carousel-inner .carousel-item .newsletter .newsletter-inner {
+  background-size: cover;
+  padding: 84px 78px;
+  clear: both;
+  display: table;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  min-height: 230px;
+  border-radius: 20px;
+}
+
+.carousel-inner .carousel-item .newsletter .newsletter-inner .newsletter-content form {
+  background-color: #fff;
+  max-width: 450px;
+  border-radius: 50px;
+  position: relative;
+  z-index: 4;
+  justify-content: space-between;
+}
+
+.carousel-inner .carousel-item .newsletter .newsletter-inner img {
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+  max-width: 40%;
+}
+
+.carousel-inner .carousel-item .newsletter .newsletter-inner .newsletter-content h2 {
+  font-family: "Quicksand", sans-serif;
+  color: #253d4e;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 72px;
+  margin-bottom: 5%;
+}
+
+.carousel-inner .carousel-item .newsletter .newsletter-inner .newsletter-content p {
+  font-size: 30px;
+  margin-bottom: 8%;
+}
+
+button[type="submit"] {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 40px;
+  color: #ffffff;
+  border: none;
+  background-color: #3bb77e;
+  border: 1px solid #29a56c;
+  border-radius: 50px;
+}
+
+
+.carousel-inner .carousel-item .newsletter .newsletter-inner .newsletter-content form input {
+  border: 0;
+  border-radius: 50px 0 0 50px;
+  padding-left: 58px;
+  outline: none;
+  background: url(https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-plane.png) no-repeat 25px center;
+}
+
+.carousel-inner .carousel-item .newsletter .newsletter-inner .newsletter-content form button {
+  border: 0;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.carousel-inner .carousel-item .newsletter .newsletter-inner .newsletter-content form button:hover {
+  background-color: #29a56c;
+  color: #fff;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-top: none;
+  border-bottom: none;
+  border-radius: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.carousel-indicators [data-bs-target]:active {
+  background: #3bb77e;
+}
+.carousel-indicators .active{
+  background: #3bb77e;
+}
+
+
+@media (max-width: 1024px) {
+  .carousel-inner .carousel-item .newsletter .newsletter-inner .newsletter-content h2 {
+    font-size: 46px;
+  }
+  .carousel-inner .carousel-item .newsletter .newsletter-inner .newsletter-content p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item .newsletter .newsletter-inner .newsletter-content form{
+    display: flex !important;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .carousel-inner .carousel-item .newsletter .newsletter-inner h2 {
+    font-size: 32px !important;
+}
+.carousel-inner .carousel-item .newsletter .newsletter-inner .newsletter-content p {
+  font-size: 14px;
+  margin-bottom: 25px !important;
+}
+.carousel-inner .carousel-item .newsletter .newsletter-inner {
+    padding: 20px;
+}
+.carousel-inner .carousel-item .newsletter form {
+  margin: 15px 0;
+}
+.carousel-inner .carousel-item .newsletter-inner button[type="submit"] {
+  padding: 12px 20px;
+}
+.carousel-inner .carousel-item .newsletter .newsletter-inner .newsletter-content form input {
+  height: 64px;
+  width: 90%;
+  font-size: 16px;
+}
+}
+
+/* .carousel .carousel-inner {
+}
+
+.carousel .carousel-inner .carousel-caption form {
+  background-color: #fff;
+  max-width: 450px;
+  border-radius: 50px;
+  position: relative;
+  z-index: 4;
+  justify-content: space-between;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  left: 7%;
+  top: 10%;
+  padding-top: 1.25rem;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel .carousel-inner img {
+  min-height: 312px;
+}
+
+.carousel .carousel-inner .carousel-caption h1 {
+  font-family: "Quicksand", sans-serif;
+  color: #253d4e;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.carousel .carousel-inner .carousel-caption p {
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  color: #253d4e;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 65px !important;
+}
+
+button[type="submit"] {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 40px;
+  color: #ffffff;
+  border: none;
+  background-color: #3bb77e;
+  border: 1px solid #29a56c;
+  border-radius: 50px;
+}
+
+.carousel .carousel-inner .carousel-caption form input {
+  border: 0;
+  height: 74px;
+  border-radius: 50px 0 0 50px;
+  padding-left: 58px;
+  outline: none;
+  background: url(https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-plane.png)
+    no-repeat 25px center;
+}
+
+.carousel .carousel-inner .carousel-caption form button {
+  border: 0;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.carousel .carousel-inner .carousel-caption form button:hover {
+  background-color: #29a56c;
+  color: #fff;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-top: none;
+  border-bottom: none;
+  border-radius: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.display-2 {
+  font-size: 72px;
+  line-height: 1;
+}
+
+.carousel-indicators [data-bs-target]:active {
+  background: #3bb77e;
+}
+
+@media only screen and (max-width: 1400px) {
+  .display-2 {
+    font-size: 64px;
+  }
+  .carousel .carousel-inner .carousel-caption form {
+    display: flex !important;
+  }
+  .carousel-caption {
+    position: absolute;
+    right: 0;
+    left: 5%;
+    top: 5%;
+    padding-top: 0;
+    color: #fff;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 1248px) {
+  .display-2 {
+    font-size: 52px;
+  }
+  .carousel-caption {
+    position: absolute;
+    right: 0;
+    left: 5%;
+    top: 5%;
+    padding-top: 0;
+    color: #fff;
+    text-align: left;
+  }
+  .carousel .carousel-inner .carousel-caption p {
+    font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 40px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel .carousel-inner .carousel-caption form {
+    display: flex !important;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  .carousel .carousel-inner h1 {
+    font-size: 32px;
+  }
+  .carousel .carousel-inner .carousel-caption p {
+    font-size: 20px;
+    margin-bottom: 25px !important;
+  }
+  .carousel .carousel-inner {
+    padding: 20px;
+  }
+  .carousel form {
+    margin: 15px 0;
+  }
+  .carousel-inner button[type="submit"] {
+    padding: 12px 20px;
+  }
+  .carousel .carousel-inner .carousel-caption form input {
+    height: 64px;
+    width: 90%;
+    font-size: 16px;
+  }
+} */

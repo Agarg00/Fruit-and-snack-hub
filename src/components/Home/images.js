@@ -18,7 +18,7 @@ import logo from "../../assets/img/logo.svg";
 import loc from "../../assets/img/icons/location.png";
 import compareIcon from "../../assets/img/icons/icon-compare.svg";
 import wishlistIcon from "../../assets/img/icons/icon-heart.svg";
-import cartIcon from "../../assets/img/icons/icon-cart.svg"; 
+import cartIcon from "../../assets/img/icons/icon-cart.svg";
 import userIcon from "../../assets/img/icons/icon-user.svg";
 import heart from "../../assets/img/icons/heart.png";
 import user from "../../assets/img/icons/user.png";
@@ -29,6 +29,9 @@ import options from "../../assets/img/icons/options.png";
 import left from "../../assets/img/icons/arrow-small-left.png";
 import right from "../../assets/img/icons/arrow-small-right.png";
 import smallRight from "../../assets/img/icons/arrow-small-right.svg";
+import shuffle from "../../assets/img/icons/shuffle.png";
+import house from "../../assets/img/icons/house.png";
+import filter from "../../assets/img/icons/filter.png";
 export {
   plus,
   btnImg,
@@ -61,4 +64,7 @@ export {
   left,
   right,
   smallRight,
+  shuffle,
+  house,
+  filter,
 };
