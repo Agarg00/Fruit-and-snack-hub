@@ -310,6 +310,18 @@ const Product = () => {
                   </tbody>
                 </table>
               </div> */}
+              {/* <div className="vendor">
+                <div className="vendor-detail">
+                  <img
+                    src="http://wp.alithemes.com/html/nest/demo/assets/imgs/vendor/vendor-18.svg"
+                    alt="logo"
+                  />
+                  <div className="details">
+                    <h6>Noodles Co.</h6>
+                    <Star />
+                  </div>
+                </div>
+              </div> */}
             </div>
             <div className="related-products">
               <h2>Related products</h2>

@@ -5,7 +5,7 @@
 }
 
 .items ul li {
-  margin: 0px 20px;
+  margin: 0px 5px;
 }
 .main {
   border-radius: 12px;
@@ -349,6 +349,18 @@ option:hover {
     line-height: 0.9;
   }
 }
+
+@media (max-width: 1168px) {
+  .hotline h2 {
+    font-size: 18px;
+  }
+  .hotline img {
+    width: 26px;
+  }
+  .hotline p {
+    font-size: 10px;
+  }
+} 
 
 @media screen and (max-width: 996px) {
   .top-header {
