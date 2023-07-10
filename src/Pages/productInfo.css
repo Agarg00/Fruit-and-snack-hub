@@ -26,7 +26,7 @@
 
 .route-header {
   display: flex;
-  padding: 30px 0px;
+  padding: 20px;
   font-size: 14px;
   font-weight: 600;
   color: #7e7e7e;
@@ -35,6 +35,10 @@
   border-top: 1px solid #ececec;
   border-bottom: 1px solid #ececec;
   font-family: "Quicksand", sans-serif;
+}
+
+.route-header > a > p{
+  margin: 0;
 }
 
 .route-header a {
@@ -680,9 +684,12 @@ td {
   .product-cards > .card {
     margin-bottom: 15px;
   }
+  .card-list .item {
+    width: 71px;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 764px) {
   .top-body {
     display: block;
   }

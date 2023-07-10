@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Home from "./Pages/Home";
-import Product from "./Pages/productInfo";
-import Navbar from "./components/Home/Navbar/Navbar";
-import MiddleBanner from "./components/Home/Middlebanner/MiddleBanner";
-import FeatureFooter from "./components/Home/Footer/FeatureFooter";
-import Footer from "./components/Home/Footer/Footer";
+// import Home from "./Pages/Home";
+// import Product from "./Pages/productInfo";
+// import Navbar from "./components/Home/Navbar/Navbar";
+// import MiddleBanner from "./components/Home/Middlebanner/MiddleBanner";
+// import FeatureFooter from "./components/Home/Footer/FeatureFooter";
+// import Footer from "./components/Home/Footer/Footer";
+import Cart from "./Pages/shopCart";
 import "./App.css";
 
 const App = () => {
@@ -26,24 +27,26 @@ const App = () => {
           />
         </div>
       ) : (
-
         <div className="container">
-      <header>
-        <Navbar />
-      </header>
-      <main>
-      <Product />
-        <MiddleBanner />
-      </main>
-      <footer>
-        <header>
-          <FeatureFooter />
-        </header>
-        <main>
-          <Footer />
-        </main>
-      </footer>
-    </div>
+          {/* <div className="container">
+          <header>
+            <Navbar />
+          </header>
+          <main>
+            <shopCart />
+            <MiddleBanner />
+          </main>
+          <footer>
+            <header>
+              <FeatureFooter />
+            </header>
+            <main>
+              <Footer />
+            </main>
+          </footer>
+        </div> */}
+          <Cart />
+        </div>
       )}
     </>
   );
