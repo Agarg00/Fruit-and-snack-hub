@@ -13,8 +13,8 @@ const Product = () => {
             <p>Home</p>
           </a>
           <span></span>
-          <a href="/">Vegetables & Tubers</a>
-          <span>Seed Of Change Organic</span>
+          <a href="/">Shop</a>
+          <span>Cart</span>
         </nav>
       </header>
       <main className="main-container">
