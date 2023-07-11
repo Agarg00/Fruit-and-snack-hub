@@ -102,6 +102,14 @@
   background-color: #ececec;
 }
 
+table thead th.end{
+  border-radius: 0 20px 20px 0;
+}
+
+table thead th.start {
+  border-radius: 20px 0 0 20px;
+}
+
 .table-body {
   overflow-x: auto;
 }
@@ -134,7 +142,7 @@ th {
   padding: 18px 10px;
   border: 1px solid #ececec;
   vertical-align: middle;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .product-name-heading {
@@ -189,13 +197,18 @@ th {
   border-radius: 5px;
 }
 
+.nav-buttons .back > img, .nav-buttons > .update > img {
+  margin-right: 10px;
+  margin-top: -3px;
+}
+
 .nav-buttons a:hover {
   background: #fdc040;
   color: #fff;
 }
 
 .shipping-coupen {
-  margin-top: 50px;
+  margin: 50px 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -205,6 +218,29 @@ th {
   border: 1px solid #ececec;
   border-radius: 15px;
   padding: 40px;
+}
+
+.shipping > .custom-select {
+  outline: none;
+  border: 1px solid #ececec;
+  padding: 20px 10px;
+  line-height: 64px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.shipping > .custom-select > option {
+  color: #7e7e7e;
+}
+
+.shipping > .custom-select > option:hover, option:checked, option::selection {
+  background-color: #3bb77e !important;
+  color: #fff !important;
+}
+
+select.custom-select option:hover {
+  background-color: red !important;
 }
 
 .shipping h4,
@@ -252,6 +288,10 @@ th {
   margin-right: 15px;
 }
 
+.coupen .form {
+  display: flex;
+}
+
 hr {
   margin-bottom: 30px;
   border-color: #b6b6b6;
@@ -277,7 +317,7 @@ hr {
 
 .total-price > table tr td {
   padding: 5px 20px;
-  border: 1px solid #ececec;
+  /* border: 1px solid #ececec; */
   vertical-align: middle;
 }
 
@@ -307,6 +347,12 @@ hr {
 .total-price a {
   width: 100%;
 }
+
+.checkout > img {
+  margin-left: 15px;
+  margin-top: -3px;
+}
+
 
 @media (max-width: 1024px) {
   .content-body {
@@ -371,11 +417,21 @@ hr {
     border-radius: 10px;
     margin-bottom: 10px;
   }
+
+  .coupen input {
+    margin-right: 8px;
+    padding-left: 12px;
+  }
+  .coupen button{
+    font-size: 10px;
+    padding: 4px 16px;
+    height: 46px;
+  }
+
   .shipping, .coupen {
     padding: 20px;
   }
   .total-price > table > tbody > tr {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
   }
 }
