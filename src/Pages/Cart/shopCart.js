@@ -1,6 +1,6 @@
 import React from "react";
-import { house } from "../components/Home/images";
-import Star from "../components/Rating/Rating";
+import { house } from "../../components/Home/images";
+import Star from "../../components/Rating/Rating";
 import "./shopCart.css";
 import del from "./img/delete.png";
 import update from "./img/update.png";

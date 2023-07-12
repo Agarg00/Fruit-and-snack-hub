@@ -1,5 +1,5 @@
 import React from "react";
-import { house } from "../components/Home/images";
+import { house } from "../../components/Home/images";
 import "./login.css";
 
 const Login = () => {

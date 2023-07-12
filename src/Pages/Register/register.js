@@ -1,6 +1,6 @@
 import React from "react";
 import "./register.css";
-import { house } from "../components/Home/images";
+import { house } from "../../components/Home/images";
 
 const Register = () => {
   return (

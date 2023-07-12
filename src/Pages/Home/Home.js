@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import Footer from "../components/Home/Footer/Footer";
+import Footer from "../../components/Home/Footer/Footer";
 import "./Home.css";
 import axios from "axios";
-import Navbar from "../components/Home/Navbar/Navbar";
-import Crousel from "../components/Home/Crousel/Crousel";
-import MiddleBanner from "../components/Home/Middlebanner/MiddleBanner";
-import Cards from "../components/Home/Crousel/Cards";
-import FeatureFooter from "../components/Home/Footer/FeatureFooter";
-import Items from "../components/Home/Items/Items";
+import Navbar from "../../components/Home/Navbar/Navbar";
+import Crousel from "../../components/Home/Crousel/Crousel";
+import MiddleBanner from "../../components/Home/Middlebanner/MiddleBanner";
+import Cards from "../../components/Home/Crousel/Cards";
+import FeatureFooter from "../../components/Home/Footer/FeatureFooter";
+import Items from "../../components/Home/Items/Items";
 
 const Home = () => {
   const [data, setData] = useState([]);

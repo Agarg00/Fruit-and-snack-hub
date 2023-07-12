@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
-// import Home from "./Pages/Home";
-// import Product from "./Pages/productInfo";
-// import Cart from "./Pages/shopCart";
-// import Login from "./Pages/login";
+// import Home from "./Pages/Home/Home";
+// import Product from "./Pages/Product/productInfo";
+// import Cart from "./Pages/Cart/shopCart";
+// import Login from "./Pages/Login/login";
+// import Register from "./Pages/Register/register";
+import Account from "./Pages/Account/account";
 // import Navbar from "./components/Home/Navbar/Navbar";
 // import MiddleBanner from "./components/Home/Middlebanner/MiddleBanner";
 // import FeatureFooter from "./components/Home/Footer/FeatureFooter";
 // import Footer from "./components/Home/Footer/Footer";
-import Register from "./Pages/register";
 import "./App.css";
 
 const App = () => {
@@ -48,7 +49,7 @@ const App = () => {
             </main>
           </footer>
         </div> */}
-        <Register />
+        <Account />
         </div>
       )}
     </>

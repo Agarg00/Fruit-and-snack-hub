@@ -1,7 +1,7 @@
 import React from "react";
 import "./productInfo.css";
-import Star from "../components/Rating/Rating";
-import { heart, shuffle, house, filter } from "../components/Home/images";
+import Star from "../../components/Rating/Rating";
+import { heart, shuffle, house, filter } from "../../components/Home/images";
 
 const Product = () => {
   return (
