@@ -61,8 +61,7 @@
 }
 
 .left-content .dashboard-menu ul li {
-    display: flex;
-    /* flex-wrap: wrap; */
+  display: flex;
   border: 1px solid #ececec;
   margin-bottom: 10px;
   padding: 15px 30px;
@@ -71,6 +70,7 @@
   align-items: center;
   font-size: 16px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .left-content .dashboard-menu ul li img {
@@ -78,7 +78,8 @@
   vertical-align: bottom;
 }
 
-.left-content .dashboard-menu ul li:active {
+.left-content .dashboard-menu ul li:active,
+.left-content .dashboard-menu ul li:hover {
   background-color: #3bb77e;
   color: #fff;
 }
@@ -116,8 +117,8 @@ a:hover {
   color: #fdc040;
 }
 
-.right-content .tab2{
-    overflow: auto;
+.right-content .tab2 {
+  overflow: auto;
 }
 
 .right-content .tab2 table {
@@ -148,13 +149,15 @@ a:hover {
   margin-top: 30px;
 }
 
-.tab3-content .tab3-form label , .tab5-content form label{
+.tab3-content .tab3-form label,
+.tab5-content form label {
   margin-bottom: 5px;
   font-size: 14px;
   color: #7e7e7e;
 }
 
-.tab3-content .tab3-form input, .tab5-content form input {
+.tab3-content .tab3-form input,
+.tab5-content form input {
   border: 1px solid #ececec;
   border-radius: 10px;
   height: 64px;
@@ -181,122 +184,124 @@ a:hover {
 }
 
 .tab4-content {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.tab4-content .billing-address , .shipping-address{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+.tab4-content .billing-address,
+.shipping-address {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
-.address-body{
-    padding: 16px;
+.address-body {
+  padding: 16px;
 }
 
 .address-body p {
-    padding: 0;
-    font-weight: normal;
+  padding: 0;
+  font-weight: normal;
 }
 
 address {
-    margin: 0;
-    color: #7e7e7e;
-    font-size: 14px;
+  margin: 0;
+  color: #7e7e7e;
+  font-size: 14px;
 }
- 
-h5{
-    padding: 16px;
-    font-size: 20px;
-    font-family: "Quicksand", sans-serif;
-    color: #253D4E;
-    font-weight: 700;
-    line-height: 1.2;
-    margin: 0;
+
+h5 {
+  padding: 16px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  color: #253d4e;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
 }
 
 .tab5-content p {
-    /* padding: 0; */
-    margin-bottom: 5px;
-    font-weight: 600;
+  /* padding: 0; */
+  margin-bottom: 5px;
+  font-weight: 600;
 }
 
 .tab5-form {
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
 }
 
-.tab5-form .dname{
-    display: flex;
+.tab5-form .dname {
+  display: flex;
 }
 
 .tab5-content form label {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
-.tab5-content form label input{
-    margin-top: 5px;
+.tab5-content form label input {
+  margin-top: 5px;
 }
 
 .dname > label {
-    width: 100%;
-    padding: 0 12px;
-    margin-bottom: 16px;
+  width: 100%;
+  padding: 0 12px;
+  margin-bottom: 16px;
 }
 
 .tab5-content .tab5-form button {
-    font-size: 16px;
-    font-weight: 500;
-    padding: 15px 40px;
-    color: #ffffff;
-    border: none;
-    background-color: #3BB77E;
-    border: 1px solid #29A56C;
-    border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 40px;
+  color: #ffffff;
+  border: none;
+  background-color: #3bb77e;
+  border: 1px solid #29a56c;
+  border-radius: 10px;
 }
 
 .tab5-content .tab5-form button:hover {
-    background-color: #29A56C;
+  background-color: #29a56c;
 }
 
 @media (max-width: 1200px) {
-    .main-body {
+  .main-body {
     padding: 150px 0;
-    }
-} 
+  }
+}
 
 @media (max-width: 767px) {
-    .main-body {
-        display: block;
-        padding: 150px 50px;
-    }
+  .main-body {
+    display: block;
+    padding: 150px 50px;
+  }
 
-    .tab4-content {
-        display: block;
-    }
-    .tab4-content .billing-address, .shipping-address {
-        width: 100%;
-    }
+  .tab4-content {
+    display: block;
+  }
+  .tab4-content .billing-address,
+  .shipping-address {
+    width: 100%;
+  }
 
-    .left-content {
-        width: 100%;
-    }
-    .right-content {
-        width: 100%;
-        padding: 0;
-    }
-    .tab5-form .dname {
-        display: block;
-    }
+  .left-content {
+    width: 100%;
+  }
+  .right-content {
+    width: 100%;
+    padding: 0;
+  }
+  .tab5-form .dname {
+    display: block;
+  }
 }
 
 @media (max-width: 448px) {
-    .main-body {
-        padding: 150px 0;
-    }
-    .right-content h3 {
-        font-size: 30px;
-    }
-} 
+  .main-body {
+    padding: 150px 0;
+  }
+  .right-content h3 {
+    font-size: 30px;
+  }
+}
