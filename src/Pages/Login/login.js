@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { house } from "../../components/Home/images";
+import { validEmail, validateEmail, passwordCheck } from "./validator";
 import "./login.css";
 
 const Login = () => {
+  const [email, setEmail] = useState("");
+  const [pass, setPass] = useState("");
+  const [code, setCode] = useState("");
+
+  const onPasswordChange = (e) => setPass(e.target.value);
+  const onNameChange = (e) => setEmail(e.target.value);
+
+  const OnButtonClick = () => {
+    passwordCheck(pass) === "strong" &&
+      validEmail.test(email) &&
+      code === "8675"
+      ? console.log(`email : ${email}, password : ${pass}`)
+      : console.log("failed");
+  };
   return (
     <>
       <header>
@@ -31,19 +46,38 @@ const Login = () => {
               <span style={{ color: "#3bb77e" }}>Create Here</span>
             </p>
           </div>
-          <form className="login-form" method="post">
+          <div className="login-form">
             <input
               type="text"
               placeholder="Username or Email *"
               name="username"
+              required={true}
+              onChange={onNameChange}
             />
+            <div className={`username ${validateEmail(email)}`}>
+              enetr a valid email
+            </div>
             <input
               type="password"
               placeholder="Your Password *"
               name="password"
+              onChange={onPasswordChange}
+              required
             />
+
+            <div className={passwordCheck(pass)}>
+              {passwordCheck(pass)}
+              <hr />{" "}
+            </div>
+
             <div className="security-code">
-              <input type="text" placeholder="Security Code *" name="code" />
+              <input
+                type="text"
+                placeholder="Security Code *"
+                name="code"
+                onChange={(e) => setCode(e.target.value)}
+                pattern="/(8675)/"
+              />
               <span>
                 <b className="text-new">8</b>
                 <b className="text-hot">6</b>
@@ -58,10 +92,15 @@ const Login = () => {
               </label>
               <a href="/">Forget password?</a>
             </div>
-            <button type="submit" className="btn" name="login">
+            <button
+              type="btn"
+              className="btn"
+              name="login"
+              onClick={OnButtonClick}
+            >
               Login
             </button>
-          </form>
+          </div>
         </div>
       </main>
     </>

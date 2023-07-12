@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 // import Home from "./Pages/Home/Home";
 // import Product from "./Pages/Product/productInfo";
 // import Cart from "./Pages/Cart/shopCart";
-// import Login from "./Pages/Login/login";
+import Login from "./Pages/Login/login";
 // import Register from "./Pages/Register/register";
-import Account from "./Pages/Account/account";
+// import Account from "./Pages/Account/account";
 // import Navbar from "./components/Home/Navbar/Navbar";
 // import MiddleBanner from "./components/Home/Middlebanner/MiddleBanner";
 // import FeatureFooter from "./components/Home/Footer/FeatureFooter";
@@ -49,7 +49,7 @@ const App = () => {
             </main>
           </footer>
         </div> */}
-        <Account />
+        <Login />
         </div>
       )}
     </>

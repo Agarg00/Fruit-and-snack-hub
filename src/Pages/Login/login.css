@@ -157,7 +157,7 @@
   font-size: 14px;
 }
 
-.login-form button[type="submit"] {
+.login-form button[type="btn"] {
   background-color: #253d4e;
   border: #253d4e;
   color: #fff;
@@ -166,6 +166,25 @@
   font-weight: 700;
   padding: 15px 40px;
   border-radius: 10px;
+}
+
+.weak hr {
+  border: 3px solid red;
+  width: 25%;
+}
+
+.medium hr {
+  border: 3px solid yellow;
+  width: 50%;
+}
+
+.strong hr {
+  border: 3px solid green;
+  width: 100%;
+}
+
+.none, .true {
+  display: none;
 }
 
 @media (max-width: 1400px) {
